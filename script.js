@@ -11,7 +11,7 @@ function createGrid(size) {
         for(let j=0; j<size; j++){
             let colorNumber = addColor();
             let btn=document.createElement("button");
-            btn.setAttribute("style",`width:80px; height:80px; cursor:pointer; transition: display 5s,opacity 5s; margin:0px;`);
+            btn.setAttribute("style",`width:50px; height:50px; cursor:pointer; transition: display 5s,opacity 5s; margin:0px;`);
 
             gridContainer.setAttribute("style",`display:grid; 
     grid-template-columns: repeat(${size},1fr);
